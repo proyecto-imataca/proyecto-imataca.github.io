@@ -1,0 +1,50 @@
+.cards-container {
+    margin: 20px;
+}
+
+.cards-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}
+
+.card-texto {
+    width: 22%;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px;
+    text-align: center;
+    
+}
+
+.card-texto h3 {
+    padding-top: 5px;
+    text-transform: uppercase;
+    background-color: orangered;
+    color: white;
+}
+
+.card-texto p {
+    font-size: 20px;
+    font-weight:900;
+    padding: 5px;
+    color: rgb(19, 19, 19);
+}
+
+.card-texto a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1000px) {
+    .cards-flex {
+        flex-direction: column;
+    }
+    .card-texto {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+
