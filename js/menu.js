@@ -2,9 +2,8 @@ function crearHeader() {
     return `
 <div class="logo">
     <a href="index.html">
-        <figure>
-            <h1>Proyecto Imataca</h1>  
-            
+        <figure>  
+            <img src="./public/images/proyecto-imataca-logo.jpg" alt="logo proyecto imataca">
         </figure>
     </a>
 </div>
