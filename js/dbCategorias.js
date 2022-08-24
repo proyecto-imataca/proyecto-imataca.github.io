@@ -22,7 +22,7 @@ const dbCategorias = [
         enlace: "https://drive.google.com/file/d/1yo7Ck5zfYtzk39S2qseYhHBGK0xsNTSF/view?usp=sharing",
         target: "_blank",
         tituloH3: "Ley de Propiedad Horizontal",
-        texto: "En Venezuela, la Ley de Propiedad Horizontal regula todo lo relacionado con los derechos de los propietarios de forma separada sobre pisos, apartamentos o locales de un edificio, pero que, a su vez, generan obligaciones en común, como por ejemplo el pago del condominio.",
+        texto: "En Venezuela, la Ley de Propiedad Horizontal regula todo lo relacionado con los derechos y deberes de los propietarios de un inmueble.",
     },
     {
         enlace: "https://curadas.com/2021/03/17/rendir-cuentas-condominio-rafael-viso/",
@@ -34,7 +34,7 @@ const dbCategorias = [
         enlace: "https://fundamemoria.blogspot.com/search/label/Ed.%20Imataca%20y%20Roraima",
         target: "_blank",
         tituloH3: "Fundación de la <br>Memoria Urbana",
-        texto: "los edificios Imataca y Roraima fueron registrados por la Fundación de la Memoria Urbana como Bienes Preinventariados, y consignados ante la Alcaldía de Chacao. Merecen ser protegidos y conservados.",
+        texto: "Bienes Preinventariados y consignados ante la Alcaldía de Chacao para ser protegidos y conservados.",
     }, 
 ]
 
