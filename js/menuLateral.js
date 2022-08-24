@@ -1,6 +1,6 @@
 function insertarHTML(ubicarEn) {
     const idElement = document.getElementById(ubicarEn)
-    idElement.innerHTML = `${Object.values(titulos).map((x, y) => 
+    idElement.innerHTML += `${Object.values(titulos).map((x, y) => 
         crearMenuLateral(x, y)).join("")}`
 }
 

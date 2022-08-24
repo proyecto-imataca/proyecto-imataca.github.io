@@ -145,7 +145,20 @@ article ol li {
     object-fit: cover;
 }
 
+#menuLateral a {
+    text-decoration: none;
+    color: black;
+}
 
+.tabla td {
+    padding-right: 25px ;
+}
+
+.borde-celda {
+    border: 1px solid black;
+    font-size: 120%;
+    
+}
 
 footer {
     padding: 10px;
