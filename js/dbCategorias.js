@@ -10,7 +10,7 @@ const dbCategorias = [
         enlace: "https://drive.google.com/file/d/1waDDOH8xG67cq8O7f43g7pEYA8RWnA0L/view?usp=sharing",
         target: "_blank",
         tituloH3: "Reglamento Edificio Imataca",
-        texto: "Recomendaciones generales para la rendición de cuentas",
+        texto: "Reglamento original del Edificio Imataca",
     },
     {
         enlace: "./guia-practica-condominios.html",
