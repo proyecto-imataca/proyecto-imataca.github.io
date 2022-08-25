@@ -96,7 +96,7 @@ article h3 {
 }
 
 article p,
-article li  {
+article li {
     font-size: 18px;
     padding-bottom: 15px;
 }
@@ -107,7 +107,7 @@ article ol {
 }
 
 article ul li,
-article ol li {    
+article ol li {
     padding-bottom: 12px;
 }
 
@@ -155,19 +155,26 @@ article ol li {
     color: black;
 }
 
-.tabla  {
+.tabla {
     border-collapse: collapse;
     width: 100%;
-} 
+}
 
 .borde-celda {
     border: 1px solid black;
-    font-size: 120%;    
+    font-size: 120%;
 }
 
 table tr td:nth-child(2) {
     text-align: right;
-    
+}
+
+.cr11-btn {
+    background-color: #199319;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 10px;
 }
 
 footer {
