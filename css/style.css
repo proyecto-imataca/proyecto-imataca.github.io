@@ -157,7 +157,8 @@ article ol li {
 
 .tabla {
     border-collapse: collapse;
-    width: 100%;
+    width: 62%;
+    margin: 0 auto;
 }
 
 .borde-celda {
@@ -205,5 +206,9 @@ footer p {
 
     .imagen-texto {
         display: block;
+    }
+
+    .tabla {
+        width: 100%;
     }
 }
