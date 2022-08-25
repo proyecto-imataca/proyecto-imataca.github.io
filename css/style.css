@@ -155,13 +155,19 @@ article ol li {
     color: black;
 }
 
-.tabla td {
-    padding-right: 25px ;
-}
+.tabla  {
+    border-collapse: collapse;
+    width: 100%;
+} 
 
 .borde-celda {
     border: 1px solid black;
     font-size: 120%;    
+}
+
+table tr td:nth-child(2) {
+    text-align: right;
+    
 }
 
 footer {
