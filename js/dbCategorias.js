@@ -1,4 +1,10 @@
-const dbCategorias = [  
+const dbCategorias = [ 
+    {
+        enlace: "./gastos-2022.html",
+        target: "",
+        tituloH3: "Borrador Gastos 2022 expresado en dólares",
+        texto: "Borrador gastos 2022 expresados en dólares como referencia para analizar y estimar futuros gastos.",
+    }, 
     {
         enlace: "./modelo-recibo-condominio.html",
         target: "",

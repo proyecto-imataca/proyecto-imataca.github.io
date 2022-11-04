@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Imataca</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cardsStyle.css">
+</head>
+
+<body>
+    <div id="root">
+        <header id="logo-menu">
+            <div class="logo">
+                <figure>
+                    <a href="index.html">
+                        <img src="./public/images/proyecto-imataca-logo.jpg" alt="logo proyecto imataca">
+                    </a>
+                </figure>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="centrar-elementos.html">Centrar Elementos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <h1>Borrador de Gastos Imataca 2022 (en proceso de revisión)</h1>
+                    <h2>Resumen de Gastos del Edificio Imataca</h2>
+                    <p>
+                        En el Edificio Imataca, en línea general, los pagos fijos en bolívares están representados por
+                        las cuentas de Hidrocapital, Corpoelec y el sueldo de la Sra. Mary Carpintero. Mientras que otros
+                        gastos se cancelan en dólares.
+                    </p>
+                    <p>
+                        Sin embargo, para estimar los gastos totales por cada cuenta de control, a final de mes o
+                        durante un periodo específico, sería recomendable convertir los bolívares a la tasa de cambio establecida por el tipo de cambio de referencia del Banco Central de Venezuela (BCV).
+                    </p>
+                    <p>
+                        De esta manera, se logra establecer una sola unidad de valor. Esto sirve para obtener una
+                        referencia de los gastos realizados en dólares (la moneda más fuerte) para poder analizar dicha
+                        información.
+                    </p>
+                    <h3>Resumen de Gastos del Edificio Imataca (Expresado en $)</h3>
+                    <h4>Primera Revisión: 02/11/2022</h4>
+                    <figure>
+                        <img src="imagenes/gastos-2022/Borrador Reconstrucción de Gastos Estimados en dólares.jpg" alt="">
+                    </figure>
+                    <h3>Fuente de los datos:</h3>
+                    <p>Documento PDF entregado vía electrónica al grupo de WhatsApp (Edificio Imataca) el 29 de agosto 2022 por la Sra. Delfina Pérez con el título: Relación de entrega Condominio Imataca 2022. <a href="">Descargar PDF</a></p>
+                    <h3>Que se debe tomar en cuenta para aplicar la tasa de referencia del BCV:</h3>
+                    <p>Aunque se podría aplicar la tasa de cambio del BCV para cada fecha correspondiente al pago efectuado en bolívares, no se cuenta con dicha información. Sin embargo, para efecto de este cálculo la variación no es tan significativa.</p>
+                    <ol>
+                        <li>
+                            Para los pagos realizados en bolívares correspondientes a un mes en específico, se le aplicó la tasa de cambio del BCV del último día del mes.</li>
+                        <li>
+                            Para los pagos realizados en dólares, esta información se deja igual, ya que representa la
+                            unidad de valor preestablecida como moneda más fuerte.
+                        </li>
+                    </ol>
+                    <h3>Puntos destacados por Revisar:</h3>
+                    <ol>
+                        <li>Desglose de los pagos a la Sra. Mary Carpintero. Concepto: Quincena, Prestaciones, Vacaciones y otros conceptos relacionados con su sueldo.</li>
+                        <li>Desglose de los gastos para ubicarlos en la categoría correspondiente.</li>
+                    </ol>
+                    <h2>Datos históricos del tipo de cambio de referencia del Banco Central de Venezuela (BCV) al mes de octubre 2022</h2>
+                    <p>El tipo de cambio publicado por el BCV sirve como valor de referencia para establecer la diferencia o pérdida de valor del Bolívar ante el dólar. De esta manera, se puede evidenciar en términos monetarios la diferencia que existe al comparar el tipo de cambio de referencia y la pérdida de valor durante el transcurso de los meses.</p>                    
+                    <figure>
+                        <img src="imagenes/gastos-2022/datos históricos de la tasa de cambio del BCV al mes de octubre 2022.jpg" alt="">
+                    </figure>
+                    <h2>Resumen de Gastos del Edificio Imataca (expresados en Bs.)</h2>     
+                    <p>
+                        Este reporte es solo informativo, ya que para poder comparar un mes con otro es necesario calcular la diferencia que existe con respecto al tipo de cambio de referencia del mes contra el tipo de cambio de referencia al mes actual. En este caso, octubre 2022. 
+                    </p> 
+                    <p>
+                        Donde el total de Bs. a la tasa de cambio actual corresponde al monto que se tendría que cancelar en Bs. si ese gasto se cancelará a la fecha del mes de octubre al tipo de cambio correspondiente a esa fecha.
+                    </p>                       	                  
+                    <figure>
+                        <img src="imagenes/gastos-2022/Gastos Imataca en Bólivares.jpg" alt="">
+                    </figure>                    
+
+                </article>
+            </section>
+        </main>
+        <footer id="footer-section1"></footer>
+    </div>
+    <script src="./js/menu.js"></script>
+    <script src="./js/dbCategorias.js"></script>
+</body>
+
+</html>
